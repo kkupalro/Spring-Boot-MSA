@@ -3,8 +3,8 @@ gateway:
   ip: 172.30.1.6
 
 token:
-  expiration_time: 20000 #1 days
-  secret: 'test2'
+  expiration_time: 30000 #1 days
+  secret: 'test3'
   secret2: 'plain_text1'
 
   
