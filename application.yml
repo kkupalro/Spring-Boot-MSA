@@ -1,0 +1,23 @@
+# ver 1.0.2
+gateway:
+  ip: 172.30.1.6
+
+token:
+  expiration_time: 86400000 #1 days
+  secret: '{cipher}AQAqRdTguShkWuxROcXnWtu7OnOYM9zD/GooGEOz6T0AxUkmTdCs7l2NGwatrkoHCfSot9x3RzSwPB7tcqmi3GW6/W4+iVK+bQnNJ13zmo0Kz7GR8i2SmWqQJG0l9VnD+V2Zh2Nd66WVKcXf4yr22Gr2y5CE0VnSmRTuAe93PlCtJ4G52iewUZIIkKyJwrwaExpsV3k98sK4+O3poNL8OxIbI5zkpGMGBFab4FjYGv4+eEul0XLqFzkff3YvBeSb7MwF8v/plpiOj8jqjT5MX1KxtWNq5H3XxPHzxN3UWM8/Gzlk34MAFXLj6rD707/kqTTVV5hB2ADwwqEslYJNEkgZWiZx5lp4kFGOxPp35YDiN005Rs29TWFSy5pS4Ni3iPU2bi/NrwIJDAuIams1APopnVJq3dBZsCCvLA80kjgpPGmrBm9lZszDhhiqeTbPInSh13+QNLGCp4R9fkQsPZXl'
+  secret2: 'plain_text1'
+
+  
+login:
+  url:
+    path: /users/login
+
+spring:
+  security:
+    user:
+      name: test
+      password: '{cipher}AQCA5X4HAb3x7polPVtQkjGocXXTvQ8o6P3NPgP5DMpxnZ+sgk1vCV9q9fU0J0YZ+/WS4xZkVskgIpozYr+Yfcw95v/NsTG4016xVznO7OlHE6Ke8ZfuTdsXvBtcbsJ71wg5osRtoC5J2//WSxyJztTNr2E7FOpKqXa/nbGafFlHerYwWR2EH8kr9Ei5X1jX0W9gR43EL0u6J+OPlJG2fcHWjZxqweDLxyNDJ7VoMdFbkQCf60b/1dByjbXZMhukfkSE9f/UKOTgj8oioitTXyqSJWWBgvI3MdB/1st5UaJivV/s7fPt+GkOJj70XD8nXVEp+7AjdG5H7JkAW3gk5FeqMxkVneWo8nIm44UK5dQbfYh2BM7m3cjHJZDTZtJcTIQ='
+
+  datasource:
+    username: kenneth
+    password: '{cipher}AQBDwiLEoS2iXMJD/1XKhF5tEFlRmdCKXrEtR8+J41nOxB1qSWqJtiu/5nUfdKgcN+XrFwSPYlcZK+M5EEUmg6k05DIERumNiM+0zItkTF32bXWAKnQZHJ7MqBfNtXPXc3BlWcPklJ8Ez7xDUqu7NaWHDzY1WpzMsLVdNmWIboe92891nB68S54DR1kdFaqxoScZ9MPj0PUNbBCPnElOLMGXuTuWaPDWhIu70oQI9vcpJ571GytjoBbowFAYgSdJwMoBPu323oRH1ovSRRQxduLqBIQUU+RswwCMRdVhKbID6c8zCd7Rawd4AZvPtsX5Qk0xWZgZTVQrxYQOjTOBnJ0oO3p51L5PE65MDJdsUYbfrLtGg/9+PtRa0cn2HOgPnnM='
