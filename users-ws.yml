@@ -1,0 +1,23 @@
+# ver 1.0.2
+gateway:
+  ip: 172.30.1.6
+
+token:
+  expiration_time: 130000 #1 days
+  secret: 'users-ws - test3'
+  secret2: 'plain_text1'
+
+  
+login:
+  url:
+    path: /users/login
+
+spring:
+  security:
+    user:
+      name: test
+      password: '{cipher}AQCA5X4HAb3x7polPVtQkjGocXXTvQ8o6P3NPgP5DMpxnZ+sgk1vCV9q9fU0J0YZ+/WS4xZkVskgIpozYr+Yfcw95v/NsTG4016xVznO7OlHE6Ke8ZfuTdsXvBtcbsJ71wg5osRtoC5J2//WSxyJztTNr2E7FOpKqXa/nbGafFlHerYwWR2EH8kr9Ei5X1jX0W9gR43EL0u6J+OPlJG2fcHWjZxqweDLxyNDJ7VoMdFbkQCf60b/1dByjbXZMhukfkSE9f/UKOTgj8oioitTXyqSJWWBgvI3MdB/1st5UaJivV/s7fPt+GkOJj70XD8nXVEp+7AjdG5H7JkAW3gk5FeqMxkVneWo8nIm44UK5dQbfYh2BM7m3cjHJZDTZtJcTIQ='
+
+  datasource:
+    username: kenneth
+    password: '{cipher}AQBDwiLEoS2iXMJD/1XKhF5tEFlRmdCKXrEtR8+J41nOxB1qSWqJtiu/5nUfdKgcN+XrFwSPYlcZK+M5EEUmg6k05DIERumNiM+0zItkTF32bXWAKnQZHJ7MqBfNtXPXc3BlWcPklJ8Ez7xDUqu7NaWHDzY1WpzMsLVdNmWIboe92891nB68S54DR1kdFaqxoScZ9MPj0PUNbBCPnElOLMGXuTuWaPDWhIu70oQI9vcpJ571GytjoBbowFAYgSdJwMoBPu323oRH1ovSRRQxduLqBIQUU+RswwCMRdVhKbID6c8zCd7Rawd4AZvPtsX5Qk0xWZgZTVQrxYQOjTOBnJ0oO3p51L5PE65MDJdsUYbfrLtGg/9+PtRa0cn2HOgPnnM='
