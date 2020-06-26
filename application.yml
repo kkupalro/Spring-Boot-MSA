@@ -3,8 +3,8 @@ gateway:
   ip: 172.30.1.6
 
 token:
-  expiration_time: 86400000 #1 days
-  secret: '{cipher}AQAqRdTguShkWuxROcXnWtu7OnOYM9zD/GooGEOz6T0AxUkmTdCs7l2NGwatrkoHCfSot9x3RzSwPB7tcqmi3GW6/W4+iVK+bQnNJ13zmo0Kz7GR8i2SmWqQJG0l9VnD+V2Zh2Nd66WVKcXf4yr22Gr2y5CE0VnSmRTuAe93PlCtJ4G52iewUZIIkKyJwrwaExpsV3k98sK4+O3poNL8OxIbI5zkpGMGBFab4FjYGv4+eEul0XLqFzkff3YvBeSb7MwF8v/plpiOj8jqjT5MX1KxtWNq5H3XxPHzxN3UWM8/Gzlk34MAFXLj6rD707/kqTTVV5hB2ADwwqEslYJNEkgZWiZx5lp4kFGOxPp35YDiN005Rs29TWFSy5pS4Ni3iPU2bi/NrwIJDAuIams1APopnVJq3dBZsCCvLA80kjgpPGmrBm9lZszDhhiqeTbPInSh13+QNLGCp4R9fkQsPZXl'
+  expiration_time: 10000 #1 days
+  secret: 'test1'
   secret2: 'plain_text1'
 
   
