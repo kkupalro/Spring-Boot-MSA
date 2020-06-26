@@ -4,13 +4,16 @@ gateway:
 
 token:
   expiration_time: 30000 #1 days
-  secret: '{cipher}cddc196650c35bd78043e2c0f496db5fe07bcaa2b9d43eb5db4cc96353de40a6'
+  secret: '{cipher}AQBc2MRr/2aQmHgmLpDindZuGIYolbMr5J5YW12Ni04l09s8x8XwL7RDP+V7nhVBwvS3eRPfEJY9A4lgumD4EPNnjNnMdZcgHEEVPjnDUvYWrFnE7SPQs2Gm5pICM1QVwCSto6Anxf3dqjC4FHdoCpjR/BOGfNAukdri/O8+5cE9qAbEJ4nm0Fx0PA5BhlnkdRjvKMcAu3zaE7fRKuq16tdaRqGGJ1dT9YJ9nhWI1opxb+6o1myfcjENbGWcXHMaAjQzADWyfRECtXtWHpz73adwBU3xE4kFu6KKtafc/+mDVemNlEAo4x7kyfx3KuO8tNBsXcXsM10NbGrFzkzPwb0VdwX4edpOfKEu1CC2FKxosAm2Y8cmnqEe+3z7m214qxM='
   secret2: 'plain_text1'
 
   
 login:
   url:
     path: /users/login
+
+albums:
+  url: http://albums-ws/users/%s/albums
 
 spring:
   security:
