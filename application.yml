@@ -4,7 +4,7 @@ gateway:
 
 token:
   expiration_time: 30000 #1 days
-  secret: 'cddc196650c35bd78043e2c0f496db5fe07bcaa2b9d43eb5db4cc96353de40a6'
+  secret: '{cipher}cddc196650c35bd78043e2c0f496db5fe07bcaa2b9d43eb5db4cc96353de40a6'
   secret2: 'plain_text1'
 
   
